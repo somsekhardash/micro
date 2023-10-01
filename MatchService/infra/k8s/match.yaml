@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: match
+spec:
+  containers:
+    - name: match
+      image: match_service@0.0.1
